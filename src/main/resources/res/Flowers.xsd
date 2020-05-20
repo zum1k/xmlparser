@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+       >
+    <simpleType name="Country">
+        <restriction base="string">
+            <enumeration value="BELARUS"/>
+            <enumeration value="BELGIUM"/>
+            <enumeration value="POLAND"/>
+            <enumeration value="BRAZIL"/>
+            <enumeration value="ITALY"/>
+            <enumeration value="UKRAINE"/>
+            <enumeration value="CHINA"/>
+            <enumeration value="RUSSIA"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="Color">
+        <restriction base="string">
+            <enumeration value="RED"/>
+            <enumeration value="YELLOW"/>
+            <enumeration value="GREEN"/>
+            <enumeration value="BLUE"/>
+            <enumeration value="PURPLE"/>
+            <enumeration value="WHITE"/>
+            <enumeration value="ORANGE"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="Soil">
+        <restriction base="string">
+            <enumeration value="PODZOLIC"/>
+            <enumeration value="GROUND"/>
+            <enumeration value="SOD_PODZOLIC"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="Multiplying">
+        <restriction base="string">
+            <enumeration value="LEAVES"/>
+            <enumeration value="SEEDS"/>
+            <enumeration value="STALK"/>
+        </restriction>
+    </simpleType>
+
+    <xs:element name="Flowers">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" name="Flower">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="string"/>
+                            <xs:element name="soilType" type="tns:Soil"/>
+                            <xs:element name="originZone" type="tns:Country"/>
+                            <xs:element name="stemColor" type="tns:Color"/>
+                            <xs:element name="leafColor" type="tns:Color"/>
+                            <xs:element name="averageSize" type="integer"/>
+                            <xs:element name="temperature" type="integer"/>
+                            <xs:element name="irrigationPerWeek" type="integer"/>
+                            <xs:element name="lightLoving" type="boolean"/>
+                            <xs:element name="mtpType" type="tns:Multiplying"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</schema>
