@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Flowers>
-    <Flower>
+<flowers>
+    <flower>
         <name>Rose</name>
         <soilType>PODZOLIC</soilType>
         <originZone>BELARUS</originZone>
@@ -11,8 +11,8 @@
         <irrigationPerWeek>2000</irrigationPerWeek>
         <lightLoving>true</lightLoving>
         <mtpType>STALK</mtpType>
-    </Flower>
-    <Flower>
+    </flower>
+    <flower>
         <name>Tulip</name>
         <soilType>GROUND</soilType>
         <originZone>RUSSIA</originZone>
@@ -23,8 +23,8 @@
         <irrigationPerWeek>2000</irrigationPerWeek>
         <lightLoving>true</lightLoving>
         <mtpType>LEAVES</mtpType>
-    </Flower>
-    <Flower>
+    </flower>
+    <flower>
         <name>PeaceBloom</name>
         <soilType>SOD_PODZOLIC</soilType>
         <originZone>ITALY</originZone>
@@ -35,8 +35,8 @@
         <irrigationPerWeek>2000</irrigationPerWeek>
         <lightLoving>true</lightLoving>
         <mtpType>SEEDS</mtpType>
-    </Flower>
-    <Flower>
+    </flower>
+    <flower>
         <name>Rose</name>
         <soilType>PODZOLIC</soilType>
         <originZone>BELARUS</originZone>
@@ -47,8 +47,8 @@
         <irrigationPerWeek>2000</irrigationPerWeek>
         <lightLoving>true</lightLoving>
         <mtpType>STALK</mtpType>
-    </Flower>
-    <Flower>
+    </flower>
+    <flower>
         <name>Rose</name>
         <soilType>PODZOLIC</soilType>
         <originZone>BELARUS</originZone>
@@ -59,8 +59,8 @@
         <irrigationPerWeek>2000</irrigationPerWeek>
         <lightLoving>true</lightLoving>
         <mtpType>STALK</mtpType>
-    </Flower>
-    <Flower>
+    </flower>
+    <flower>
         <name>Rose</name>
         <soilType>PODZOLIC</soilType>
         <originZone>BELARUS</originZone>
@@ -71,8 +71,8 @@
         <irrigationPerWeek>2000</irrigationPerWeek>
         <lightLoving>true</lightLoving>
         <mtpType>STALK</mtpType>
-    </Flower>
-    <Flower>
+    </flower>
+    <flower>
         <name>Rose</name>
         <soilType>PODZOLIC</soilType>
         <originZone>BELARUS</originZone>
@@ -83,8 +83,8 @@
         <irrigationPerWeek>2000</irrigationPerWeek>
         <lightLoving>true</lightLoving>
         <mtpType>STALK</mtpType>
-    </Flower>
-    <Flower>
+    </flower>
+    <flower>
         <name>Rose</name>
         <soilType>PODZOLIC</soilType>
         <originZone>BELARUS</originZone>
@@ -95,8 +95,8 @@
         <irrigationPerWeek>2000</irrigationPerWeek>
         <lightLoving>true</lightLoving>
         <mtpType>STALK</mtpType>
-    </Flower>
-    <Flower>
+    </flower>
+    <flower>
         <name>Rose</name>
         <soilType>PODZOLIC</soilType>
         <originZone>BELARUS</originZone>
@@ -107,8 +107,8 @@
         <irrigationPerWeek>2000</irrigationPerWeek>
         <lightLoving>true</lightLoving>
         <mtpType>STALK</mtpType>
-    </Flower>
-    <Flower>
+    </flower>
+    <flower>
         <name>Rose</name>
         <soilType>PODZOLIC</soilType>
         <originZone>BELARUS</originZone>
@@ -119,8 +119,8 @@
         <irrigationPerWeek>2000</irrigationPerWeek>
         <lightLoving>true</lightLoving>
         <mtpType>STALK</mtpType>
-    </Flower>
-    <Flower>
+    </flower>
+    <flower>
         <name>Rose</name>
         <soilType>PODZOLIC</soilType>
         <originZone>BELARUS</originZone>
@@ -131,8 +131,8 @@
         <irrigationPerWeek>2000</irrigationPerWeek>
         <lightLoving>true</lightLoving>
         <mtpType>STALK</mtpType>
-    </Flower>
-    <Flower>
+    </flower>
+    <flower>
         <name>Rose</name>
         <soilType>PODZOLIC</soilType>
         <originZone>BELARUS</originZone>
@@ -143,8 +143,8 @@
         <irrigationPerWeek>2000</irrigationPerWeek>
         <lightLoving>true</lightLoving>
         <mtpType>STALK</mtpType>
-    </Flower>
-    <Flower>
+    </flower>
+    <flower>
         <name>Rose</name>
         <soilType>PODZOLIC</soilType>
         <originZone>BELARUS</originZone>
@@ -155,8 +155,8 @@
         <irrigationPerWeek>2000</irrigationPerWeek>
         <lightLoving>true</lightLoving>
         <mtpType>STALK</mtpType>
-    </Flower>
-    <Flower>
+    </flower>
+    <flower>
         <name>Rose</name>
         <soilType>PODZOLIC</soilType>
         <originZone>BELARUS</originZone>
@@ -167,8 +167,8 @@
         <irrigationPerWeek>2000</irrigationPerWeek>
         <lightLoving>true</lightLoving>
         <mtpType>STALK</mtpType>
-    </Flower>
-    <Flower>
+    </flower>
+    <flower>
         <name>Rose</name>
         <soilType>PODZOLIC</soilType>
         <originZone>BELARUS</originZone>
@@ -179,8 +179,8 @@
         <irrigationPerWeek>2000</irrigationPerWeek>
         <lightLoving>true</lightLoving>
         <mtpType>STALK</mtpType>
-    </Flower>
-    <Flower>
+    </flower>
+    <flower>
         <name>Rose</name>
         <soilType>PODZOLIC</soilType>
         <originZone>BELARUS</originZone>
@@ -191,5 +191,5 @@
         <irrigationPerWeek>2000</irrigationPerWeek>
         <lightLoving>true</lightLoving>
         <mtpType>STALK</mtpType>
-    </Flower>
-</Flowers>
+    </flower>
+</flowers>
