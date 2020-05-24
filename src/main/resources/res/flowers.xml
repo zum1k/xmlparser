@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<flowers>
-    <flower>
-        <name>Rose</name>
+<flowers xmlns="http://www.example.com/flowers">
+    <flower name="Rose">
         <soilType>PODZOLIC</soilType>
         <originZone>BELARUS</originZone>
         <stemColor>GREEN</stemColor>
@@ -10,10 +9,9 @@
         <temperature>20</temperature>
         <irrigationPerWeek>2000</irrigationPerWeek>
         <lightLoving>true</lightLoving>
-        <mtpType>STALK</mtpType>
+        <multiplyingType>STALK</multiplyingType>
     </flower>
-    <flower>
-        <name>Tulip</name>
+    <flower name ="Tulip">
         <soilType>GROUND</soilType>
         <originZone>RUSSIA</originZone>
         <stemColor>RED</stemColor>
@@ -22,174 +20,149 @@
         <temperature>20</temperature>
         <irrigationPerWeek>2000</irrigationPerWeek>
         <lightLoving>true</lightLoving>
-        <mtpType>LEAVES</mtpType>
+        <multiplyingType>LEAVES</multiplyingType>
     </flower>
-    <flower>
-        <name>PeaceBloom</name>
+    <flower name="Daisy">
         <soilType>SOD_PODZOLIC</soilType>
+        <originZone>BELARUS</originZone>
+        <stemColor>GREEN</stemColor>
+        <leafColor>WHITE</leafColor>
+        <averageSize>25</averageSize>
+        <temperature>15</temperature>
+        <irrigationPerWeek>1000</irrigationPerWeek>
+        <lightLoving>true</lightLoving>
+        <multiplyingType>SEEDS</multiplyingType>
+    </flower>
+    <flower name="Iris">
+        <soilType>GROUND</soilType>
+        <originZone>BELARUS</originZone>
+        <stemColor>GREEN</stemColor>
+        <leafColor>PURPLE</leafColor>
+        <averageSize>40</averageSize>
+        <temperature>25</temperature>
+        <irrigationPerWeek>4000</irrigationPerWeek>
+        <lightLoving>true</lightLoving>
+        <multiplyingType>SEEDS</multiplyingType>
+    </flower>
+    <flower name="Narcissus">
+        <soilType>GROUND</soilType>
+        <originZone>POLAND</originZone>
+        <stemColor>GREEN</stemColor>
+        <leafColor>YELLOW</leafColor>
+        <averageSize>40</averageSize>
+        <temperature>16</temperature>
+        <irrigationPerWeek>2500</irrigationPerWeek>
+        <lightLoving>true</lightLoving>
+        <multiplyingType>SEEDS</multiplyingType>
+    </flower>
+    <flower name="SunFLower">
+        <soilType>GROUND</soilType>
+        <originZone>BELARUS</originZone>
+        <stemColor>GREEN</stemColor>
+        <leafColor>YELLOW</leafColor>
+        <averageSize>110</averageSize>
+        <temperature>20</temperature>
+        <irrigationPerWeek>1500</irrigationPerWeek>
+        <lightLoving>true</lightLoving>
+        <multiplyingType>SEEDS</multiplyingType>
+    </flower>
+    <flower name="Orchid">
+        <soilType>PODZOLIC</soilType>
+        <originZone>BELGIUM</originZone>
+        <stemColor>GREEN</stemColor>
+        <leafColor>WHITE</leafColor>
+        <averageSize>50</averageSize>
+        <temperature>20</temperature>
+        <irrigationPerWeek>2000</irrigationPerWeek>
+        <lightLoving>true</lightLoving>
+        <multiplyingType>SEEDS</multiplyingType>
+    </flower>
+    <flower name="Lilium">
+        <soilType>SOD_PODZOLIC</soilType>
+        <originZone>CHINA</originZone>
+        <stemColor>GREEN</stemColor>
+        <leafColor>WHITE</leafColor>
+        <averageSize>100</averageSize>
+        <temperature>15</temperature>
+        <irrigationPerWeek>3000</irrigationPerWeek>
+        <lightLoving>true</lightLoving>
+        <multiplyingType>LEAVES</multiplyingType>
+    </flower>
+    <flower name="Peony">
+        <soilType>GROUND</soilType>
         <originZone>ITALY</originZone>
-        <stemColor>ORANGE</stemColor>
+        <stemColor>GREEN</stemColor>
+        <leafColor>PINK</leafColor>
+        <averageSize>75</averageSize>
+        <temperature>25</temperature>
+        <irrigationPerWeek>4200</irrigationPerWeek>
+        <lightLoving>true</lightLoving>
+        <multiplyingType>STALK</multiplyingType>
+    </flower>
+    <flower name="Lily of the valley">
+        <soilType>PODZOLIC</soilType>
+        <originZone>RUSSIA</originZone>
+        <stemColor>GREEN</stemColor>
+        <leafColor>WHITE</leafColor>
+        <averageSize>31</averageSize>
+        <temperature>10</temperature>
+        <irrigationPerWeek>1000</irrigationPerWeek>
+        <lightLoving>true</lightLoving>
+        <multiplyingType>SEEDS</multiplyingType>
+    </flower>
+    <flower name="Dianthus">
+        <soilType>PODZOLIC</soilType>
+        <originZone>BELARUS</originZone>
+        <stemColor>GREEN</stemColor>
+        <leafColor>RED</leafColor>
+        <averageSize>55</averageSize>
+        <temperature>20</temperature>
+        <irrigationPerWeek>1800</irrigationPerWeek>
+        <lightLoving>true</lightLoving>
+        <multiplyingType>SEEDS</multiplyingType>
+    </flower>
+    <flower name="Ursinia">
+        <soilType>SOD_PODZOLIC</soilType>
+        <originZone>UKRAINE</originZone>
+        <stemColor>GREEN</stemColor>
+        <leafColor>ORANGE</leafColor>
+        <averageSize>31</averageSize>
+        <temperature>15</temperature>
+        <irrigationPerWeek>1400</irrigationPerWeek>
+        <lightLoving>true</lightLoving>
+        <multiplyingType>STALK</multiplyingType>
+    </flower>
+    <flower name="Anemone">
+        <soilType>SOD_PODZOLIC</soilType>
+        <originZone>BRAZIL</originZone>
+        <stemColor>GREEN</stemColor>
+        <leafColor>WHITE</leafColor>
+        <averageSize>31</averageSize>
+        <temperature>25</temperature>
+        <irrigationPerWeek>2000</irrigationPerWeek>
+        <lightLoving>true</lightLoving>
+        <multiplyingType>LEAVES</multiplyingType>
+    </flower>
+    <flower name="Centaurea">
+        <soilType>PODZOLIC</soilType>
+        <originZone>BELARUS</originZone>
+        <stemColor>GREEN</stemColor>
         <leafColor>BLUE</leafColor>
-        <averageSize>50</averageSize>
-        <temperature>20</temperature>
-        <irrigationPerWeek>2000</irrigationPerWeek>
+        <averageSize>35</averageSize>
+        <temperature>17</temperature>
+        <irrigationPerWeek>1400</irrigationPerWeek>
         <lightLoving>true</lightLoving>
-        <mtpType>SEEDS</mtpType>
+        <multiplyingType>SEEDS</multiplyingType>
     </flower>
-    <flower>
-        <name>Rose</name>
-        <soilType>PODZOLIC</soilType>
-        <originZone>BELARUS</originZone>
+    <flower name="Petunia">
+        <soilType>GROUND</soilType>
+        <originZone>BRAZIL</originZone>
         <stemColor>GREEN</stemColor>
         <leafColor>RED</leafColor>
-        <averageSize>50</averageSize>
-        <temperature>20</temperature>
-        <irrigationPerWeek>2000</irrigationPerWeek>
+        <averageSize>34</averageSize>
+        <temperature>15</temperature>
+        <irrigationPerWeek>2400</irrigationPerWeek>
         <lightLoving>true</lightLoving>
-        <mtpType>STALK</mtpType>
-    </flower>
-    <flower>
-        <name>Rose</name>
-        <soilType>PODZOLIC</soilType>
-        <originZone>BELARUS</originZone>
-        <stemColor>GREEN</stemColor>
-        <leafColor>RED</leafColor>
-        <averageSize>50</averageSize>
-        <temperature>20</temperature>
-        <irrigationPerWeek>2000</irrigationPerWeek>
-        <lightLoving>true</lightLoving>
-        <mtpType>STALK</mtpType>
-    </flower>
-    <flower>
-        <name>Rose</name>
-        <soilType>PODZOLIC</soilType>
-        <originZone>BELARUS</originZone>
-        <stemColor>GREEN</stemColor>
-        <leafColor>RED</leafColor>
-        <averageSize>50</averageSize>
-        <temperature>20</temperature>
-        <irrigationPerWeek>2000</irrigationPerWeek>
-        <lightLoving>true</lightLoving>
-        <mtpType>STALK</mtpType>
-    </flower>
-    <flower>
-        <name>Rose</name>
-        <soilType>PODZOLIC</soilType>
-        <originZone>BELARUS</originZone>
-        <stemColor>GREEN</stemColor>
-        <leafColor>RED</leafColor>
-        <averageSize>50</averageSize>
-        <temperature>20</temperature>
-        <irrigationPerWeek>2000</irrigationPerWeek>
-        <lightLoving>true</lightLoving>
-        <mtpType>STALK</mtpType>
-    </flower>
-    <flower>
-        <name>Rose</name>
-        <soilType>PODZOLIC</soilType>
-        <originZone>BELARUS</originZone>
-        <stemColor>GREEN</stemColor>
-        <leafColor>RED</leafColor>
-        <averageSize>50</averageSize>
-        <temperature>20</temperature>
-        <irrigationPerWeek>2000</irrigationPerWeek>
-        <lightLoving>true</lightLoving>
-        <mtpType>STALK</mtpType>
-    </flower>
-    <flower>
-        <name>Rose</name>
-        <soilType>PODZOLIC</soilType>
-        <originZone>BELARUS</originZone>
-        <stemColor>GREEN</stemColor>
-        <leafColor>RED</leafColor>
-        <averageSize>50</averageSize>
-        <temperature>20</temperature>
-        <irrigationPerWeek>2000</irrigationPerWeek>
-        <lightLoving>true</lightLoving>
-        <mtpType>STALK</mtpType>
-    </flower>
-    <flower>
-        <name>Rose</name>
-        <soilType>PODZOLIC</soilType>
-        <originZone>BELARUS</originZone>
-        <stemColor>GREEN</stemColor>
-        <leafColor>RED</leafColor>
-        <averageSize>50</averageSize>
-        <temperature>20</temperature>
-        <irrigationPerWeek>2000</irrigationPerWeek>
-        <lightLoving>true</lightLoving>
-        <mtpType>STALK</mtpType>
-    </flower>
-    <flower>
-        <name>Rose</name>
-        <soilType>PODZOLIC</soilType>
-        <originZone>BELARUS</originZone>
-        <stemColor>GREEN</stemColor>
-        <leafColor>RED</leafColor>
-        <averageSize>50</averageSize>
-        <temperature>20</temperature>
-        <irrigationPerWeek>2000</irrigationPerWeek>
-        <lightLoving>true</lightLoving>
-        <mtpType>STALK</mtpType>
-    </flower>
-    <flower>
-        <name>Rose</name>
-        <soilType>PODZOLIC</soilType>
-        <originZone>BELARUS</originZone>
-        <stemColor>GREEN</stemColor>
-        <leafColor>RED</leafColor>
-        <averageSize>50</averageSize>
-        <temperature>20</temperature>
-        <irrigationPerWeek>2000</irrigationPerWeek>
-        <lightLoving>true</lightLoving>
-        <mtpType>STALK</mtpType>
-    </flower>
-    <flower>
-        <name>Rose</name>
-        <soilType>PODZOLIC</soilType>
-        <originZone>BELARUS</originZone>
-        <stemColor>GREEN</stemColor>
-        <leafColor>RED</leafColor>
-        <averageSize>50</averageSize>
-        <temperature>20</temperature>
-        <irrigationPerWeek>2000</irrigationPerWeek>
-        <lightLoving>true</lightLoving>
-        <mtpType>STALK</mtpType>
-    </flower>
-    <flower>
-        <name>Rose</name>
-        <soilType>PODZOLIC</soilType>
-        <originZone>BELARUS</originZone>
-        <stemColor>GREEN</stemColor>
-        <leafColor>RED</leafColor>
-        <averageSize>50</averageSize>
-        <temperature>20</temperature>
-        <irrigationPerWeek>2000</irrigationPerWeek>
-        <lightLoving>true</lightLoving>
-        <mtpType>STALK</mtpType>
-    </flower>
-    <flower>
-        <name>Rose</name>
-        <soilType>PODZOLIC</soilType>
-        <originZone>BELARUS</originZone>
-        <stemColor>GREEN</stemColor>
-        <leafColor>RED</leafColor>
-        <averageSize>50</averageSize>
-        <temperature>20</temperature>
-        <irrigationPerWeek>2000</irrigationPerWeek>
-        <lightLoving>true</lightLoving>
-        <mtpType>STALK</mtpType>
-    </flower>
-    <flower>
-        <name>Rose</name>
-        <soilType>PODZOLIC</soilType>
-        <originZone>BELARUS</originZone>
-        <stemColor>GREEN</stemColor>
-        <leafColor>RED</leafColor>
-        <averageSize>50</averageSize>
-        <temperature>20</temperature>
-        <irrigationPerWeek>2000</irrigationPerWeek>
-        <lightLoving>true</lightLoving>
-        <mtpType>STALK</mtpType>
+        <multiplyingType>SEEDS</multiplyingType>
     </flower>
 </flowers>

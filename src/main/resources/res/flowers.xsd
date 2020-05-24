@@ -3,6 +3,50 @@
         targetNamespace="http://www.example.com/flowers"
         xmlns:tns="http://www.example.com/flowers"
         elementFormDefault="qualified">
+
+    <element name="flowers">
+        <complexType>
+            <sequence>
+                <element name="flower" maxOccurs="unbounded" minOccurs="1" type="tns:Flower"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <complexType name="Flower">
+        <sequence>
+            <element name="soilType" type="tns:Soil"/>
+            <element name="originZone" type="tns:Country"/>
+            <element name="stemColor" type="tns:Color"/>
+            <element name="leafColor" type="tns:Color"/>
+            <element name="averageSize">
+                <simpleType>
+                    <restriction base="integer">
+                        <minInclusive value="5"/>
+                        <maxInclusive value="200"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="temperature">
+                <simpleType>
+                    <restriction base="integer">
+                        <minInclusive value="5"/>
+                        <maxInclusive value="50"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="irrigationPerWeek">
+                <simpleType>
+                    <restriction base="integer">
+                        <minInclusive value="0"/>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="lightLoving" type="boolean"/>
+            <element name="multiplyingType" type="tns:Multiplying"/>
+        </sequence>
+        <attribute name="name" use="required"/>
+
+    </complexType>
     <simpleType name="Country">
         <restriction base="string">
             <enumeration value="BELARUS"/>
@@ -25,6 +69,7 @@
             <enumeration value="PURPLE"/>
             <enumeration value="WHITE"/>
             <enumeration value="ORANGE"/>
+            <enumeration value="PINK"/>
         </restriction>
     </simpleType>
 
@@ -44,26 +89,4 @@
         </restriction>
     </simpleType>
 
-    <element name="flower">
-        <complexType>
-            <sequence>
-                <element maxOccurs="unbounded" name="flower">
-                    <complexType>
-                        <sequence>
-                            <element name="name" type="string"/>
-                            <element name="soilType" type="tns:Soil"/>
-                            <element name="originZone" type="tns:Country"/>
-                            <element name="stemColor" type="tns:Color"/>
-                            <element name="leafColor" type="tns:Color"/>
-                            <element name="averageSize" type="integer"/>
-                            <element name="temperature" type="integer"/>
-                            <element name="irrigationPerWeek" type="integer"/>
-                            <element name="lightLoving" type="boolean"/>
-                            <element name="mtpType" type="tns:Multiplying"/>
-                        </sequence>
-                    </complexType>
-                </element>
-            </sequence>
-        </complexType>
-    </element>
 </schema>

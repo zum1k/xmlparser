@@ -14,7 +14,7 @@ public class Flower {
     private int temperature;
     private int irrigationPerWeek;
     private boolean lightLoving;
-    private Multiplying mtpType;
+    private Multiplying multiplyingType;
 
     public Flower(){
 
@@ -31,7 +31,7 @@ public class Flower {
         this.temperature = temperature;
         this.irrigationPerWeek = irrigationPerWeek;
         this.lightLoving = lightLoving;
-        this.mtpType = mtpType;
+        this.multiplyingType = mtpType;
     }
 
     public String getName() {
@@ -106,12 +106,12 @@ public class Flower {
         this.lightLoving = lightLoving;
     }
 
-    public Multiplying getMtpType() {
-        return mtpType;
+    public Multiplying getMultiplyingType() {
+        return multiplyingType;
     }
 
-    public void setMtpType(Multiplying mtpType) {
-        this.mtpType = mtpType;
+    public void setMultiplyingType(Multiplying multiplyingType) {
+        this.multiplyingType = multiplyingType;
     }
 
     @Override
@@ -132,13 +132,13 @@ public class Flower {
                 originZone == flower.originZone &&
                 stemColor == flower.stemColor &&
                 leafColor == flower.leafColor &&
-                mtpType == flower.mtpType;
+                multiplyingType == flower.multiplyingType;
     }
 
     @Override
     public int hashCode() {
         return Objects.hash(name, soilType, originZone, stemColor, leafColor, averageSize,
-                temperature, irrigationPerWeek, lightLoving, mtpType);
+                temperature, irrigationPerWeek, lightLoving, multiplyingType);
     }
 
     @Override
@@ -153,7 +153,7 @@ public class Flower {
                 ", temperature=" + temperature +
                 ", irrigationPerWeek=" + irrigationPerWeek +
                 ", lightLoving=" + lightLoving +
-                ", mtpType=" + mtpType +
+                ", mtpType=" + multiplyingType +
                 '}').toString();
     }
 }
