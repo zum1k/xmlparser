@@ -1,13 +1,13 @@
-package com.epam.training.xmlparser.factory;
+package com.epam.training.xmlparser.parser.dom;
 
 import com.epam.training.xmlparser.entity.*;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-public class FlowerBuilder {
+class FlowerBuilder {
 
-    public Flower buildFlower(Element element) {
+    Flower buildFlower(Element element) {
         Flower flower = new Flower();
         String name = element.getAttribute("name");
         flower.setName(name);

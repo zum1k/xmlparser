@@ -2,7 +2,6 @@ package com.epam.training.xmlparser.parser.dom;
 
 import com.epam.training.xmlparser.entity.Flower;
 import com.epam.training.xmlparser.exception.ParserException;
-import com.epam.training.xmlparser.factory.FlowerBuilder;
 import com.epam.training.xmlparser.parser.Parser;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
