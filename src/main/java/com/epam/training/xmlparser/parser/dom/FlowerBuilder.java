@@ -58,7 +58,6 @@ class FlowerBuilder {
     private String getElementText(Element element, String elementName) {
         NodeList nodeList = element.getElementsByTagName(elementName);
         Node node = nodeList.item(0);
-        String textContent = node.getTextContent();
-        return textContent;
+        return node.getTextContent();
     }
 }

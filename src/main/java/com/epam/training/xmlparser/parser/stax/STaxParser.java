@@ -38,47 +38,65 @@ public class STaxParser implements Parser {
 
                         case "soilType":
                             xmlEvent = reader.nextEvent();
-                            flower.setSoilType(Soil.valueOf(xmlEvent.asCharacters().getData()));
+                            if (flower != null) {
+                                flower.setSoilType(Soil.valueOf(xmlEvent.asCharacters().getData()));
+                            }
                             break;
 
                         case "originZone":
                             xmlEvent = reader.nextEvent();
-                            flower.setOriginZone(Country.valueOf(xmlEvent.asCharacters().getData()));
+                            if (flower != null) {
+                                flower.setOriginZone(Country.valueOf(xmlEvent.asCharacters().getData()));
+                            }
                             break;
 
                         case "stemColor":
                             xmlEvent = reader.nextEvent();
-                            flower.setStemColor(Color.valueOf(xmlEvent.asCharacters().getData()));
+                            if (flower != null) {
+                                flower.setStemColor(Color.valueOf(xmlEvent.asCharacters().getData()));
+                            }
                             break;
 
                         case "leafColor":
                             xmlEvent = reader.nextEvent();
-                            flower.setLeafColor(Color.valueOf(xmlEvent.asCharacters().getData()));
+                            if (flower != null) {
+                                flower.setLeafColor(Color.valueOf(xmlEvent.asCharacters().getData()));
+                            }
                             break;
 
                         case "averageSize":
                             xmlEvent = reader.nextEvent();
-                            flower.setAverageSize(Integer.parseInt(xmlEvent.asCharacters().getData()));
+                            if (flower != null) {
+                                flower.setAverageSize(Integer.parseInt(xmlEvent.asCharacters().getData()));
+                            }
                             break;
 
                         case "temperature":
                             xmlEvent = reader.nextEvent();
-                            flower.setTemperature(Integer.parseInt(xmlEvent.asCharacters().getData()));
+                            if (flower != null) {
+                                flower.setTemperature(Integer.parseInt(xmlEvent.asCharacters().getData()));
+                            }
                             break;
 
                         case "irrigationPerWeek":
                             xmlEvent = reader.nextEvent();
-                            flower.setIrrigationPerWeek(Integer.parseInt(xmlEvent.asCharacters().getData()));
+                            if (flower != null) {
+                                flower.setIrrigationPerWeek(Integer.parseInt(xmlEvent.asCharacters().getData()));
+                            }
                             break;
 
                         case "lightLoving":
                             xmlEvent = reader.nextEvent();
-                            flower.setLightLoving(Boolean.parseBoolean(xmlEvent.asCharacters().getData()));
+                            if (flower != null) {
+                                flower.setLightLoving(Boolean.parseBoolean(xmlEvent.asCharacters().getData()));
+                            }
                             break;
 
                         case "multiplyingType":
                             xmlEvent = reader.nextEvent();
-                            flower.setMultiplyingType(Multiplying.valueOf((xmlEvent.asCharacters().getData())));
+                            if (flower != null) {
+                                flower.setMultiplyingType(Multiplying.valueOf((xmlEvent.asCharacters().getData())));
+                            }
                             break;
                     }
                 }
