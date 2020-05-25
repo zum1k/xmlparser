@@ -3,6 +3,8 @@ package com.epam.training.xmlparser.parser.stax;
 import com.epam.training.xmlparser.entity.*;
 import com.epam.training.xmlparser.exception.ParserException;
 import com.epam.training.xmlparser.parser.Parser;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import javax.xml.namespace.QName;
 import javax.xml.stream.XMLEventReader;
@@ -18,9 +20,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class STaxParser implements Parser {
+    private static final Logger LOGGER = LogManager.getLogger(STaxParser.class);
+
     @Override
     public List<Flower> parse(String xmlPath) throws ParserException {
-        List<Flower> flowerList = new ArrayList<Flower>();
+        List<Flower> flowerList = new ArrayList<>();
         Flower flower = null;
         XMLInputFactory xmlInputFactory = XMLInputFactory.newInstance();
         try {
@@ -108,8 +112,10 @@ public class STaxParser implements Parser {
                 }
             }
 
-        } catch (FileNotFoundException | XMLStreamException exc) {
-            exc.printStackTrace();
+        } catch (FileNotFoundException e) {
+            LOGGER.error("File not found - " + xmlPath);
+        } catch (XMLStreamException e) {
+            LOGGER.error("XML Stream exception in - " + xmlPath);
         }
         return flowerList;
     }
